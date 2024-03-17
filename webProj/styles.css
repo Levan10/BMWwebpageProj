@@ -2,13 +2,13 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #303030, #616161); /* Gradient for the body */
+    background: linear-gradient(to bottom, #e6e6e7, #33a0d1 33%, #373485 66%, #c52b30 20%); /* Gradient for the body */
     color: #f8f6f6;
 }
 
 .header {
     position: relative; /* Ensure relative positioning for absolute positioning inside */
-    background: linear-gradient(to bottom, #333333, #555555); /* Gradient for the header */
+    background: linear-gradient(to bottom, #e6e6e7, #bfd3dd); /* Gradient for the header */
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -31,6 +31,15 @@ body {
     align-items: center;
     justify-content: flex-start; /* Align content at the top */
     height: 90%; /* Ensure the container takes full height */
+}
+
+.colorful-M {
+    font-size: 48px;
+    background: linear-gradient(to right, #33a0d1 5%, #373485 70%, #c52b30 33%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 72px;
 }
 
 #m3CS {
