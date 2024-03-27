@@ -7,7 +7,7 @@ body {
 
     overflow-x: hidden;
 }
-
+/*delete*/
 .header {
     position: relative; /* Ensure relative positioning for absolute positioning inside */
     background: linear-gradient(to bottom, #e6e6e7, #bfd3dd); /* Gradient for the header */
