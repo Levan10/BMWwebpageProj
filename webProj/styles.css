@@ -4,6 +4,8 @@ body {
     padding: 0;
     background: linear-gradient(to bottom, #e6e6e7, #33a0d1 33%, #373485 66%, #c52b30 20%); /* Gradient for the body */
     color: #f8f6f6;
+
+    overflow-x: hidden;
 }
 
 .header {
@@ -51,10 +53,34 @@ body {
 
 
 
-.container {
+.leftContainer {
     width: 100%; /* Make container full width */
     overflow: hidden; /* Clear floats */
+    left: 0;
 }
+.leftContainer2 {
+    width: 100%; /* Make container full width */
+    overflow: hidden; /* Clear floats */
+    left: 0;
+}
+.rightContainer {
+    width: 100%; /* Make container full width */
+    overflow: hidden; /* Clear floats */
+    margin-left: 45%;
+
+}
+#m2bmw{
+    width: 50%;
+    height: auto;
+    display: block;
+}
+#m4bmw{
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
+
 
 h1 {
     font-size: 50px;
@@ -82,9 +108,9 @@ p {
 }
 
 #bmwblack{
-    width: 100%;
+    width: 50%;
     height: auto;
-    display: block
+    display: block;
 }
 
 #fig2{
