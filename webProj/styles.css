@@ -53,23 +53,29 @@ body {
 
 
 .leftContainer {
-    width: 100%; /* Make container full width */
+    width: auto; /* Make container full width */
     overflow: hidden; /* Clear floats */
     left: 0;
 }
 .leftContainer2 {
-    width: 100%; /* Make container full width */
+    width: auto; /* Make container full width */
     overflow: hidden; /* Clear floats */
     left: 0;
 }
 .rightContainer {
-    width: 100%; /* Make container full width */
+    width: auto; /* Make container full width */
+    overflow: hidden; /* Clear floats */
+    margin-left: 45%;
+
+}
+.rightContainer2 {
+    width: auto; /* Make container full width */
     overflow: hidden; /* Clear floats */
     margin-left: 45%;
 
 }
 #m2bmw{
-    width: 50%;
+    width: 100%;
     height: auto;
     display: block;
 }
@@ -77,6 +83,11 @@ body {
     width: 50%;
     height: auto;
     display: block;
+}
+#m5bmw{
+    width: 100%;
+    height: auto;
+    display: block; 
 }
 
 
