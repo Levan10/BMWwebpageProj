@@ -175,3 +175,29 @@ p {
     height: auto;
     margin-right: 5px;
 }
+
+
+.testDrive {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .drive-text {
+    font-family: 'Exo', sans-serif;
+    font-size: 40px;
+    color: #ede3e3;
+  }
+  
+  .drive-link {
+    display: block;
+    font-family: 'Exo', sans-serif;
+    font-size: 18px;
+    color: #7d8083;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .drive-link:hover {
+    text-decoration: underline;
+  }
+  
